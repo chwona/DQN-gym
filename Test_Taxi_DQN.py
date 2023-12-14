@@ -6,12 +6,8 @@
 ##################################################
 # install package
 ##################################################
-!pip install -U gym>=0.21.0
-!pip install -U gym[atari,accept-rom-license]
-
-## 이미지 캡쳐를 통해 영상으로 확인하려면 주석 해제
-# !apt-get install -y xvfb x11-utils
-# !pip install pyvirtualdisplay==0.2.* PyOpenGL==3.1.* PyOpenGL-accelerate==3.1.*
+!apt-get install -y xvfb x11-utils
+!pip install pyvirtualdisplay==0.2.* PyOpenGL==3.1.* PyOpenGL-accelerate==3.1.*
 
 ##################################################
 # import package
@@ -29,8 +25,7 @@ from tensorflow.keras.models import load_model
 # Trained Model Load
 ##################################################
 # Load the saved model
-loaded_model = load_model('/content/drive/MyDrive/RL/taxi_3_trained_dqn_model_target.h5') #모델이 저장된 경로 설정
-# loaded_model = load_model('/content/drive/MyDrive/RL/taxi_2_trained_dqn_model_e159.h5')
+loaded_model = load_model('/content/drive/MyDrive/RL/taxi_model.h5') #모델이 저장된 경로 설정
 
 ## 이미지 캡쳐를 통해 영상으로 확인하려면 주석 해제
 # display = Display(visible=0, size=(400, 300))

@@ -44,7 +44,7 @@ def preprocess_frame(frame):
 ##################################################
 # Trained Model Load
 ##################################################
-loaded_model = load_model('/content/drive/MyDrive/RL/Breakout/ver3/breakout_model_e409.h5') #학습된 모델 저장경로 설정
+loaded_model = load_model('/content/drive/MyDrive/RL/Breakout/ver3/breakout_model.h5') #학습된 모델 저장경로 설정
 
 ## 이미지 캡쳐를 통해 영상으로 확인하려면 주석 해제
 # display = Display(visible=0, size=(400, 300))
