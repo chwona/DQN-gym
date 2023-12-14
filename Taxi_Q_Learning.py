@@ -5,8 +5,8 @@
 ##################################################
 # install package
 ##################################################
-!pip install -U gym>=0.21.0
-!pip install -U gym[atari,accept-rom-license]
+!apt-get install -y xvfb x11-utils
+!pip install pyvirtualdisplay==0.2.* PyOpenGL==3.1.* PyOpenGL-accelerate==3.1.*
 
 ##################################################
 # import package
