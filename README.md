@@ -7,13 +7,13 @@
 - Train_Taxi_DQN.py/.ipynb : DQN Training code for Taxi 
 - Test_Taxi_DGN.py/.ipynb : DQN Test code for Taxi
 - Q_Learning_Taxi.py/.ipynb : Q_Learning training code for Taxi 
-- saved DQN Model : Taxi_DQN_Model.h5
+- saved DQN Model : Taxi_Model.h5
 (다운로드: https://drive.google.com/drive/folders/1dkEmiwGcKXWtBRuzrErW23wEqAkSe_g0?usp=drive_link)
 
 ② Breakout in Atari 2600 
 - Train_Breakout_DQN.py/.ipynb : DQN Training cod for Breakout
 - Test_DQN_Breakout.py/.ipynb : DQN Test code for Breakout
-- saved DQN Model : Breakout_DQN_Model.h5
+- saved DQN Model : Breakout_Model.h5
 (다운로드: https://drive.google.com/drive/folders/1dkEmiwGcKXWtBRuzrErW23wEqAkSe_g0?usp=drive_link)
 
 ※ 모든 코드는 .py 와 .ipynb 2가지 버전으로 업로드 하였습니다. 
@@ -24,3 +24,4 @@
 3) 학습 및 테스트 코드 모두 저장 및 모델 불러오는 경로명을 수정한 뒤 순서대로 실행시킵니다.
 
 ※ RAM 용량 부족으로 학습 시, Colab Pro 버전을 구독해 RAM 용량을 52기가로 늘려야합니다.  
+※ Taxi와 Breakout에서 사용하는 Gym 버전이 다릅니다. 코드 실행 시, 충돌이 발생하지 않게 런타임 해제 후 재연결이 우선으로 필요합니다.
